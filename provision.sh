@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Adding authorized ssh_keys"
+mkdir -p /root/.ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnecZQKXeJ7lYPukYmGUVxReDyBvSpn5mH3AP6Cusuji59Ff24pLhTzA0zOWlPIXvIeheNuTA7O8QVKzfoVSnIURpCw1zQfgH4UlBDMKuO1S/M9UaImiikYYbLQXn20blHjuglkEnQf5XClp/A15k0htGonQhA77fFLNR4ZmSKqzJBCllkTrotrcQ+oAs+ycbE/FyAog+sbvWmrzDdk5Za3FC/o7wwCL8R3ohhIOYZnRha7lwIKKbV8rhZDCuVtVdw2RhRudtJ8Bt4lgKJkwOlkN/zQNXDB11RiYQeDgYPZ/ygd9KSsy4uTXgo9uzkXvOOzw3RYUTbZBCkCo/n70vn wsl_ubuntu1804" > /root/.ssh/authorized_keys

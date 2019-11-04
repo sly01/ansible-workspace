@@ -1,0 +1,3 @@
+node1 ansible_host=172.17.105.248 ansible_user=root
+node2 ansible_host=172.17.105.246 ansible_user=root
+node3 ansible_host=172.17.105.250 ansible_user=root

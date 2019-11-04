@@ -1,0 +1,19 @@
+---
+- name: "Install httpd"
+  yum:
+    name: httpd
+    state: installed
+
+- name: "Start and Enabled httpd service"
+  service:
+    name: httpd
+    state: started
+    enabled: yes
+
+- name: "Create index.html page"
+  template:
+    src: index.j2
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'

@@ -1,0 +1,4 @@
+---
+- hosts: node1
+  roles:
+      - { role: webserver, user: "Ahmet" }
